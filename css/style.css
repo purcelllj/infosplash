@@ -1,0 +1,142 @@
+body {
+	height:100%;
+	background: url('../images/IcebergImage.jpg') no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+	background-color:#355363;
+	border:none;
+}
+
+.nav.navbar-nav.navbar-left {
+	margin: 0 auto;
+}
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:30px !important}
+
+
+li {
+	font-size: 11px;
+	color: white;
+	margin-left: -10px;
+
+}
+
+li a {
+	font-size: 11px;
+	color: inherit !important;
+	color: white;
+	opacity: 0.7;
+	
+}
+
+li a:hover {
+	opacity: 1.0;
+	transition: all 0.3s ease 0s;
+}
+
+img.social {
+	max-width: 20px;
+	max-height: 20px;
+}
+
+#logo{
+	padding-top:10px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 2%;
+}
+
+#slogan {
+	float: left;
+	margin-left: 13%;
+	margin-top: inherit !important;
+	position:relative;
+	color: white;
+	margin-top: 5%;
+}
+#slogan > span {
+	font-weight: 600;
+	font-style: italic;
+}
+
+#content {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#imagine {
+	font-weight: 400;
+	font-style: italic; 
+	color: white;
+	float: left;
+	margin-top: 18%;
+	font-size: 36px;
+}
+
+
+#main {
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	margin-top:25%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	position: relative;
+
+}
+
+#today {
+	min-width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	font-size: 26px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 8%;
+}
+
+p.text-center > a {
+	text-decoration: none;
+	color: #333;
+}
+
+#siteLink a:hover {
+	text-decoration: none;
+	color: #333;
+}
+#siteLink a:active {
+	text-decoration: none;
+	color: #333;
+}
+#siteLink a:visited {
+	text-decoration: none;
+	color: #333;
+}
+#siteLink a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+#gr {
+	color: #89c43f;
+	font-weight: bold;
+	
+}
+
+#comp {
+	color: #f9d74f;
+	font-style: italic;
+	font-size: 18px;
+	margin-bottom: 30%;
+}
+
+
