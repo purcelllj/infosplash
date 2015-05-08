@@ -4,6 +4,7 @@ body {
 	background-size: cover;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
+	max-width: 100%;
 }
 
 .navbar.navbar-default.navbar-fixed-top {
@@ -67,6 +68,7 @@ img.social {
 #content {
 	padding-left: 0px;
 	padding-right: 0px;
+	max-width: 100%;
 }
 
 #imagine {
@@ -132,11 +134,46 @@ p.text-center > a {
 	
 }
 
+#compliment {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 #comp {
 	color: #f9d74f;
 	font-style: italic;
 	font-size: 18px;
 	margin-bottom: 30%;
+}
+
+@media screen and (max-width: 785px){
+	#logo {
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+		float: none;
+	}
+
+	img#infogent {
+		max-width: 80%;
+		margin-top: 30px;
+	}
+
+	#slogan {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+	}
+
+	#imagine {
+		font-size: 25px;
+	}
+
+	#main {
+		font-size: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 
 
