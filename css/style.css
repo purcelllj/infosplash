@@ -1,15 +1,21 @@
 body {
 	height:100%;
-	background: url('../images/IcebergImage.jpg') no-repeat center center;
+	background: url('../images/IcebergImage2.jpg') no-repeat center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	max-width: 100%;
 }
 
 .navbar.navbar-default.navbar-fixed-top {
 	background-color:#355363;
 	border:none;
+	box-shadow: 0 0px 6px 0 black;
+	-webkit-box-shadow: 0 0px 6px 0 black;
+	-moz-box-shadow: 0 0px 6px 0 black;
+	-o-box-shadow: 0 0px 6px 0 black;
 }
 
 .nav.navbar-nav.navbar-left {
@@ -147,6 +153,14 @@ p.text-center > a {
 }
 
 @media screen and (max-width: 785px){
+	body {
+		height:100%;
+		background: url('../images/IcebergImage2.jpg') no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+	}
 	#logo {
 		margin-left: 0 auto;
 		margin-right: 0 auto;
